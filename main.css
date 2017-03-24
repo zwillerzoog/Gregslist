@@ -19,12 +19,55 @@ li {
 }
 
 main {
-	border: 1px solid black;
-	top: 100px;
+	top: 120px;
+	left: 100px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+div {
+	display: inline-block;
+}
+
+label {
+	font-size: 20px;
+}
+
 input {
 	display: block;
+	height: 30px;
+	width: 400px;
+	font-size: 25px;
 }
+
+button {
+	background-color: white;
+	border: 1px solid lightgrey;
+}
+
+.bar button {
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left:410px;
+}
+
+img {
+	width: 28px;
+	height: 28px;
+}
+
+.directions {
+	display: inline;
+	position: absolute;
+	top: 150px;
+
+}
+
+.directions > button {
+	font-size: 20px;
+
+}
+
+
